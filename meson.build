@@ -1,0 +1,1 @@
+dependency('smkl', required: true)
