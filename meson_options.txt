@@ -1,9 +1,0 @@
-option('use-smkl-standard-library', type: 'boolean', value: true,
-	description: 'Use Kintens SMKL - a reimplementation of the C Standard Library - for some basic operations')
-option('build-tests')
-option('build-so',                  type: 'boolean', value: true,
-	description: 'Build this projects shared libary files')
-option('build-a',                   type: 'boolean', value: true,
-	description: 'Build this projects static library files for further compilation')
-option('build-doc',                 type: 'boolean', value: true,
-	description: 'Build the documentation as an HTML book')
